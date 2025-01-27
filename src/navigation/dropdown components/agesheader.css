@@ -1,0 +1,28 @@
+
+/* h-[200px] pages-container flex justify-center items-center m-10 rounded-3xl */
+.pagesheader-header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 2rem;
+    background-image: linear-gradient(to right top, #051937, #002562, #00308e, #0037ba, #3239e5);
+}
+.pagesheader-header h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.pagesheader-header p{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+@media (max-width:700px){
+    .pagesheader-header{
+        height: 150px;
+        margin: 1rem;
+    }
+}

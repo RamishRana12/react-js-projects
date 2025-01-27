@@ -1,0 +1,61 @@
+.cardimg-container{
+    height: 180px;
+    border-radius: 10px;
+    border: none;
+}
+.main-flex{
+    height: 500px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #002562, #00308e, #0037ba, #3239e5);
+}
+
+.cardimg-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+}
+.main-para{
+    display: flex;
+    margin-top: 20px;
+
+  
+    justify-content: end;
+
+}
+.main-para p{
+    padding: 5px;
+    background-color: white;
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 1px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size:12px;
+    
+    text-align: center;
+}
+.cardmain{
+  margin-left: 90px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+
+}
+.main-paras{
+
+    margin: 0px;
+}
+.supermarket{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+.assets{
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+}

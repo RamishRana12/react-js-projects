@@ -1,0 +1,133 @@
+/* Navbar container styling */
+.navbar {
+  background-image: linear-gradient(to right top, #051937, #002562, #00308e, #0037ba, #3239e5);
+  height: 150px;
+  padding: 1rem;
+  /* overflow-x: hidden; */
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar brand image */
+.img-nav {
+  height: 100px;
+}
+
+/* Navigation links */
+.link {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.link-text{
+color: #fff;
+}
+.link-text.active {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.link-text:hover {
+  color: #ccc;
+}
+
+/* Dropdown styling */
+#unity-dropdown {
+  position: relative;
+}
+
+#unity-dropdown .dropdown-title {
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+
+
+#unity-dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  display: none;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px white;
+}
+
+#unity-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-item {
+ color: black;
+  padding: 0.5rem 0;
+  border-radius: 20px;
+ text-align: center;
+ margin-top: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+@media (min-width:1000px) and (max-width:1400px){
+  .link {
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+  }
+/* Navigation links */
+
+ 
+ .nav-btn{
+  display: none;
+ }
+ .sm-btn{
+display: none;
+ }
+  .link,
+  .dropdown-title {
+    font-size: 1rem;
+   margin: 1rem;
+  }
+  .link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  .link-text{
+  color: #fff;
+  }
+  .link-text.active {
+    font-weight: bold;
+    color: #ffcc00;
+  }
+
+  .unity{
+  
+    margin-left: -2px;
+    font-size: 1rem;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+  }
+}

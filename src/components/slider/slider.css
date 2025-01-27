@@ -1,0 +1,45 @@
+.slider-container{
+   display: flex;
+   cursor: pointer;
+    
+}
+.slider-data{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+ 
+}
+
+
+
+.column-slider{
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+ 
+    align-items: center;
+}
+.slider-para{
+    width: 100%;
+    height: 200px;
+   
+    background-color:#eff4f7;
+    border-radius: 18px;
+    padding: 20px;
+ 
+}
+.light{
+    color: #c2c9cc;
+}
+
+
+  
+  
+ 
+  
+  

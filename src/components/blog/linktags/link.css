@@ -1,0 +1,114 @@
+.input-link input{
+    padding: 10px 10px;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 5px;
+    height: 50px;
+
+}
+.link-col{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.input-link{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.search-link {
+border: 2px solid;
+height: 50px;
+border-left: none;
+background:  #eff4f7;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.categories{
+    background:  #eff4f7;
+    width:300px ;
+    height: 250px;
+    margin: 2rem;
+    border-radius: 18px;
+    
+}
+.categories-headings{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.categories p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.blog-tags{
+    background-color: #eff4f7;
+    width:400px ;
+    padding: 10px;
+}
+.blog-tags h5{
+text-align: center;
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+
+
+.blogs-ul li{
+    text-decoration: none;
+    color: #28375a;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 10px;
+    text-transform: lowercase;
+    border: 1px solid;
+    transition: all 0.25s;
+    display: inline-block;
+    border-radius: 50px;
+}
+.blogs-flex{
+display: flex;
+flex-wrap: wrap;
+}
+.blogs-ul:hover li{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+}
+
+@media (max-width: 800px){
+    .link-col{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        .input-link input{
+            padding: 10px 10px;
+            width: 80%;
+           
+        
+        }
+}
+@media (min-width:1000px) and (max-width:1400px){
+    .input-link input{
+        padding: 10px 10px;
+        width: 80%;
+       
+    
+    }
+    .link-col{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+}

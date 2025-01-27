@@ -1,0 +1,142 @@
+
+.about-container{
+    height:200px;
+    background-image: linear-gradient(to right top, #051937, #002562, #00308e, #0037ba, #3239e5);
+    margin: 4rem;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-title{
+    color: white;
+    font-size: 3rem;
+}
+.about-data{
+margin: 4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about-headings{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 80px;
+}
+.about-span{
+    color:#00308e;
+}
+.about-headings p{
+font-size: 1rem;
+
+}
+.footer-about{
+    margin-top: 10px;
+}
+.market-about{
+   margin:4rem;
+}
+.about-headings h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.aboutus-heading h1{
+text-align: center;
+font-weight: bold;
+font-size: 3rem;
+    
+}
+
+
+.about-btn{
+    width:150px;
+
+    margin-top: 2rem;
+}
+.about-img{
+    width: 60%;
+   
+}.about-headings{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 20px;
+}
+.about-img img{
+    height: auto;
+    border-radius: 18px;
+    width:100%;
+}
+@media (min-width:1000px) and (max-width:1400px){
+    .about-data{
+        margin-left:4rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        margin-right: 4m;
+    }
+    .about-container{
+        margin-left:4rem ;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        margin-right: 4rem;
+    }.about-headings{
+        display: flex;
+        width: 70%;
+
+        flex-direction: column;
+    }.about-img img{
+        border-radius: 18px;
+        width:100%;
+    }.about-headings{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+@media (max-width: 1000px){
+    .about-headings{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .about-headings p{
+        margin-top: 2rem;
+        font-size: 0.8rem;
+        
+        }
+.about-container{
+    height: 150px;
+    margin: 1rem;
+    
+}
+.about-headings h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.about-headings{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .about-data{
+        display: flex;
+        margin: 0.5rem;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        }
+        .about-img{
+            width: 90%;
+           
+        }
+        .about-img img{
+            height: auto;
+            border-radius: 18px;
+            width:100%;
+        }
+   }
