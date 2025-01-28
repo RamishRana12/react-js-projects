@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {motion} from 'framer-motion'
-import './button.css'
+import './Button.css'
 const ProductList = () => {
   const Data = [
     {
