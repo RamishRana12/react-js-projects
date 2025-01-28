@@ -1,5 +1,5 @@
 import React from 'react'
-import './block.css'
+import './Block.css'
 import { NavLink } from 'react-router-dom'
 import {motion} from 'framer-motion'
 function Block() {
