@@ -8,7 +8,7 @@ import img2 from "./images/img2.png";
 import Block from "./Block/Block";
 import Featured from "./featured/Featured";
 import Subscriber from "./subscriber/subscriber";
-import Counter from "./counter/counter";
+import Counter from "./Counter/Counter";
 import Recent from "./recentblogs/Recent";
 import Maincard from "./maincard/Maincard";
 import { motion } from "framer-motion";
