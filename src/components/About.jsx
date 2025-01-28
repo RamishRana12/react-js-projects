@@ -1,5 +1,5 @@
 import React from "react";
-import imagemarket from "./images/Market.jpeg";
+import imagemarket from "./images/market.jpeg";
 import "./about.css";
 import Button from "react-bootstrap/Button";
 import Market from "./market/market";
