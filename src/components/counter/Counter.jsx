@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './counter.css'
+import './Counter.css'
 import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
 import {motion} from 'framer-motion'
